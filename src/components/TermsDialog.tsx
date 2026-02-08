@@ -41,7 +41,7 @@ export function TermsDialog() {
               <div>
                 <h3 className="font-medium text-sm">Seus dados são seus</h3>
                 <p className="text-xs text-muted-foreground">
-                  Todos os dados financeiros são armazenados apenas no seu dispositivo.
+                  Todos os dados financeiros são armazenados apenas no seu dispositivo no kestGastos.
                 </p>
               </div>
             </div>
