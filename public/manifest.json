@@ -1,6 +1,6 @@
 {
-  "name": "Meus Gastos",
-  "short_name": "Gastos",
+  "name": "kestGastos",
+  "short_name": "kestGastos",
   "description": "Controle de gastos pessoais simples e intuitivo",
   "theme_color": "#2db87e",
   "background_color": "#f7f9fc",

@@ -213,7 +213,7 @@ export function SettingsScreen() {
         <div className="w-12 h-12 mx-auto mb-3 bg-gradient-primary rounded-xl flex items-center justify-center">
           <Info className="w-6 h-6 text-primary-foreground" />
         </div>
-        <h3 className="font-semibold">Meus Gastos</h3>
+        <h3 className="font-semibold">kestGastos</h3>
         <p className="text-xs text-muted-foreground mt-1">Versão 1.0.0</p>
         <p className="text-xs text-muted-foreground mt-3">
           Desenvolvido com ❤️ para ajudar você a organizar suas finanças.

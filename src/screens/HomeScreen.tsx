@@ -22,9 +22,9 @@ export function HomeScreen() {
         animate={{ opacity: 1, y: 0 }}
         className="flex items-center justify-between"
       >
-        <div>
+      <div>
           <p className="text-muted-foreground text-sm">Olá! 👋</p>
-          <h1 className="text-2xl font-bold">Meus Gastos</h1>
+          <h1 className="text-2xl font-bold">kestGastos</h1>
         </div>
         <Button
           onClick={() => setIsFormOpen(true)}
