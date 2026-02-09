@@ -79,7 +79,7 @@ export function TransactionForm({ isOpen, onClose, defaultType = 'expense' }: Tr
             animate={{ y: 0 }}
             exit={{ y: '100%' }}
             transition={{ type: 'spring', damping: 25, stiffness: 300 }}
-            className="fixed bottom-0 left-0 right-0 z-50 bg-card rounded-t-3xl shadow-lg border-t border-border max-h-[90vh] overflow-auto"
+            className="fixed bottom-0 left-0 right-0 z-50 bg-card rounded-t-3xl shadow-lg border-t border-border max-h-[85vh] overflow-y-auto"
           >
             {/* Handle */}
             <div className="flex justify-center pt-3 pb-2">
@@ -95,7 +95,7 @@ export function TransactionForm({ isOpen, onClose, defaultType = 'expense' }: Tr
             </div>
 
             {/* Form */}
-            <form onSubmit={handleSubmit} className="px-4 pb-8 space-y-5">
+            <form onSubmit={handleSubmit} className="px-4 pb-16 space-y-5">
               {/* Type Toggle */}
               <div className="flex gap-2 p-1 bg-muted rounded-xl">
                 <button
